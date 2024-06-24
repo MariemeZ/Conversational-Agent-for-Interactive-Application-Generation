@@ -1,0 +1,106 @@
+{
+    "rules": [
+      {
+        "pattern": "nomApplication",
+        "instruction": [
+            "Spécifiez le nom de votre application.",
+            "Choisissez un nom significatif et unique pour votre application.",
+            "Assurez-vous que le nom de votre application respecte les conventions de dénomination appropriées."
+        ],
+        "assistance": [
+            "Si vous avez besoin d'aide pour choisir un nom pour votre application, je peux vous donner des suggestions personnalisées.",
+            "N'hésitez pas à me demander si vous avez des questions sur la dénomination des applications."
+        ],
+        "valeur_par_defaut": ["MyApp", "QuickApp", "EasyApp", "FirstApp", "AppX", "SmartApp", "MyApplication"]
+      },
+
+      {
+        "pattern": "partieServeur",
+        "instruction": [
+            "Spécifiez le nom de la partie serveur de votre application.",
+            "Sélectionnez un nom clair et descriptif pour la partie serveur de votre application.",
+            "Assurez-vous que le nom de la partie serveur est cohérent avec l'architecture et les fonctionnalités de votre application."
+        ],
+        "assistance": [
+            "Si vous avez besoin d'idées pour nommer la partie serveur de votre application, je peux vous proposer des suggestions.",
+            "N'hésitez pas à me demander si vous souhaitez en savoir plus sur les bonnes pratiques pour nommer les composants d'une application."
+        ],
+        "valeur_par_defaut": ["ApplicationServer", "ServeurPrincipal", "Serveur", "Backend", "BackendService"]
+      },
+
+      {
+        "pattern": "partieWeb",
+        "instruction": [
+            "Spécifiez le nom de la partie web de votre application.",
+            "Choisissez un nom clair et évocateur pour la partie web de votre application.",
+            "Assurez-vous que le nom de la partie web est cohérent avec l'architecture et les fonctionnalités de votre application."
+        ],
+        "assistance": [
+            "Si vous avez besoin d'inspiration pour nommer la partie web de votre application, je suis là pour vous aider.",
+            "N'hésitez pas à me demander si vous avez des questions sur le choix des noms pour les composants d'une application web."
+        ],
+        "valeur_par_defaut": ["WebApp", "WebInterface", "Frontend", "Client", "Portal", "WebUI"]
+      },
+      {
+        "pattern": "langues",
+        "instruction": [
+            "Spécifiez les langues que votre application doit prendre en charge. Par exemple : 'Mon application doit prendre en charge le français, l'anglais et l'espagnol.'",
+            "Sélectionnez les langues les mieux adaptées à votre public cible et aux besoins de votre application.",
+            "Assurez-vous que votre application est capable de gérer correctement les différentes langues sélectionnées."
+        ],
+        "assistance": [
+            "Si vous avez des questions sur la prise en charge des langues dans votre application, je suis là pour vous aider.",
+            "N'hésitez pas à me demander si vous souhaitez des conseils sur la gestion des langues dans le développement d'une application."
+        ],
+        "valeur_par_defaut": ["Français", "Anglais", "Arabe"]
+      },
+      {
+        "pattern": "profilsPartieServeur",
+        "instruction": [
+            "Spécifiez les profils de la partie serveur de votre application. Par exemple : 'Les profils de la partie serveur sont 'dev', 'test' et 'prod'.'",
+            "Choisissez les profils appropriés en fonction des environnements de développement, de test et de production de votre application.",
+            "Assurez-vous que les profils sélectionnés correspondent aux besoins et aux exigences de votre application."
+        ],
+        "assistance": [
+            "Si vous avez besoin d'aide pour définir les profils de la partie serveur, je suis là pour vous guider.",
+            "N'hésitez pas à me demander si vous avez des questions sur la gestion des profils dans le développement d'une application."
+        ],
+        "valeur_par_defaut": ["dev", "test", "pre-prod", "prod"]
+      },
+      {
+        "pattern": "microservices",
+        "instruction": [
+            "Spécifiez les microservices utilisés dans l'architecture. Par exemple : 'Les microservices utilisés sont Eureka et Gateway.'",
+            "Sélectionnez les microservices les mieux adaptés aux fonctionnalités de votre application. Assurez-vous que les microservices choisis sont compatibles et interopérables.",
+            "Si vous souhaitez spécifier un microservice pré-défini, veuillez le mentionner et fournir les caractéristiques spécifiques requises.",
+            "Si vous souhaitez spécifier votre propre microservice, veuillez fournir le nom du microservice, ainsi que les caractéristiques telles que l'URL, l'utilisateur, le mot de passe et le port du serveur."
+        ],
+        "assistance": [
+            "Si vous avez des questions sur l'architecture à microservices ou si vous avez besoin d'aide pour spécifier les microservices de votre application, n'hésitez pas à me demander.",
+            "Je suis là pour vous aider à choisir et à configurer les microservices de votre application."
+        ],
+        "valeur_par_defaut": [
+            "Service d'authentification","Gateway","Service de gestion des utilisateurs","Service de stockage de données"
+        ],
+        "microservices_par_defaut": [
+            "Gateway","Eureka"
+        ],
+        "microservices_predefinis": [
+            "GED","Administration","Reporting"
+        ],
+        "etapes": [
+            "Pour la configuration du serveur Eureka, veuillez préciser le n° de port",
+            "En se basant sur les profils que vous venez de choisir: "
+        ]
+      }
+    ],
+
+    "assistance_supplementaire":[
+        "Si vous avez des questions supplémentaires ou si vous avez besoin d'aide pour des étapes spécifiques du développement, n'hésitez pas à me demander !",
+        "Si vous souhaitez obtenir plus d'informations ou si vous avez besoin d'assistance concernant certaines étapes spécifiques du développement, je suis là pour vous aider !",
+        "Si vous avez des interrogations supplémentaires ou si vous nécessitez une aide particulière pour des étapes spécifiques de votre projet, je suis à votre disposition !",
+        "N'hésitez pas à me solliciter si vous avez des questions supplémentaires ou si vous avez besoin d'assistance dans des étapes spécifiques du développement.",
+        "Si vous désirez plus de précisions ou si vous avez besoin d'aide pour des étapes spécifiques de votre projet, je suis là pour répondre à vos questions !",
+        "Sentez-vous libre de me demander si vous avez des questions supplémentaires ou si vous avez besoin d'assistance pour des étapes spécifiques de votre développement."
+    ]
+  }

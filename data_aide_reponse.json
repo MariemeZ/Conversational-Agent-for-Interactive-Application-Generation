@@ -1,0 +1,113 @@
+{
+    "rules": [
+        {
+            "pattern": "nomApplication",
+            "nom_etape": "nom de l'application",
+            "etape": 1,
+            "max_value":"1",
+            "precedence": null,
+            "instructions": [
+                "Spécifiez le nom de votre application.",
+                "Choisissez un nom significatif et unique pour votre application.",
+                "Assurez-vous que le nom de votre application respecte les conventions de dénomination appropriées."
+            ],
+            "assistance": [
+                "Si vous avez besoin d'aide pour choisir un nom pour votre application, je peux vous donner des suggestions personnalisées.",
+                "N'hésitez pas à me demander si vous avez des questions sur la dénomination des applications.",
+                "Si vous avez besoin d'aide pour choisir un nom approprié pour votre application, n'hésitez pas à demander !"
+            ],
+            "valeur_par_defaut": ["MyApp", "QuickApp", "EasyApp", "FirstApp", "AppX", "SmartApp", "MyApplication"],
+            "conseils": [
+                "Choisissez un nom significatif qui décrit bien le but de votre application.",
+                "Vérifiez que le nom de l'application ne contient pas de caractères spéciaux ou d'espaces inutiles."
+            ],
+            "explication_detaillee": "Le nom de votre application est une étape cruciale dans le processus de développement.Il s'agit du nom qui sera utilisé pour identifier votre application auprès des utilisateurs et dans le code source. Assurez-vous de choisir un nom unique et évocateur qui reflète bien le contenu et la fonction de votre application.",
+            "sous_etapes": null
+        },
+        {
+            "pattern": "backendWorkspace",
+            "nom_etape": "partie Backend de l'application",
+            "etape": 2,
+            "max_value":"1",
+            "precedence": null,
+            "instructions": [
+                "Spécifiez le nom de la partie serveur de votre application.",
+                "Sélectionnez un nom clair et descriptif pour la partie serveur de votre application.",
+                "Configurez l'espace de travail pour la partie backend de votre application."
+            ],
+            "assistance":  [
+                "Si vous avez besoin d'aide pour configurer l'espace de travail pour la partie backend, nous sommes là pour vous guider !",
+                "Si vous avez besoin d'idées pour nommer la partie serveur de votre application, je peux vous proposer des suggestions.",
+                "N'hésitez pas à me demander si vous souhaitez en savoir plus sur les bonnes pratiques pour nommer les composants d'une application."
+            ],
+            "valeur_par_defaut": ["ApplicationServer", "ServeurPrincipal", "Serveur", "Backend", "BackendService"],
+            "conseils": [
+                "Assurez-vous de choisir un dossier de travail approprié pour votre partie backend.",
+                "Vérifiez que tous les fichiers et dépendances nécessaires sont inclus dans l'espace de travail."
+            ],
+            "explication_detaillee": "L'espace de travail pour la partie backend de votre application est l'endroit où vous développerez les fonctionnalités de votre application qui se déroulent côté serveur. Choisissez un dossier de travail approprié et assurez-vous que tous les fichiers et dépendances nécessaires sont inclus pour faciliter le développement backend de votre application.",
+            "sous_etapes": null
+            
+        },
+        {
+            "pattern": "frontendWorkspace",
+            "nom_etape": "partie Frontend de l'application",
+            "etape": 3,
+            "max_value":"1",
+            "precedence": null,
+            "instructions":  [
+                "Spécifiez le nom de la partie web de votre application.",
+                "Choisissez un nom clair et évocateur pour la partie web de votre application.",
+                "Configurez l'espace de travail pour la partie frontend de votre application."
+            ],
+            "assistance":  [
+                "Si vous n'êtes pas sûr(e) de la manière de configurer l'espace de travail pour la partie frontend, nous sommes là pour vous guider !",
+                "Si vous avez besoin d'inspiration pour nommer la partie web de votre application, je suis là pour vous aider.",
+                "N'hésitez pas à me demander si vous avez des questions sur le choix des noms pour les composants d'une application web."
+            ],
+            "valeur_par_defaut": ["WebApp", "WebInterface", "Frontend", "Client", "Portal", "WebUI"],
+            "conseils": [
+                "Assurez-vous de choisir un dossier de travail approprié pour votre partie frontend.",
+                "Vérifiez que tous les fichiers et dépendances nécessaires sont inclus dans l'espace de travail."
+            ],
+            "explication_detaillee": "L'espace de travail pour la partie frontend de votre application est l'endroit où vous développerez l'interface utilisateur et les fonctionnalités visibles de votre application. Choisissez un dossier de travail approprié et assurez-vous que tous les fichiers et dépendances nécessaires sont inclus pour éviter tout problème lors du développement.",
+            "sous_etapes": null
+            
+        },
+        {
+            "pattern": "microservices",
+            "nom_etape": "microservices",
+            "etape": 5,
+            "max_value":"+1",
+            "precedence": [2,3,4],
+            "instructions": [
+                "Expliquez les microservices que votre application utilise.",
+                "Identifiez les composants clés de votre architecture de microservices.",
+                "Décrivez comment ces microservices interagissent pour fournir les fonctionnalités de votre application."
+            ],
+            "assistance": [
+                "Besoin d'aide pour comprendre les microservices ? N'hésitez pas à demander !",
+                "Si vous avez des questions sur la conception de microservices, je suis là pour vous aider.",
+                "Nous pouvons discuter en détail de vos microservices si vous le souhaitez."
+            ],
+            "valeur_par_defaut": [ "ServiceA",
+            "ServiceB",
+            "ServiceC"],
+            "conseils": [
+                "Assurez-vous de bien documenter chaque microservice.",
+                "Pensez à la scalabilité de vos microservices."
+            ],
+            "explication_detaillee": "Les microservices sont un élément essentiel de l'architecture de votre application. Ils sont responsables de fonctions spécifiques et communiquent entre eux pour fournir une expérience utilisateur cohérente. Veillez à bien comprendre les rôles et les interactions de chaque microservice pour garantir le bon fonctionnement de votre application.",
+            "sous_etapes": null
+        }
+    ],
+
+    "assistance_supplementaire":[
+        "Si vous avez des questions supplémentaires ou si vous avez besoin d'aide pour des étapes spécifiques du développement, n'hésitez pas à me demander !",
+        "Si vous souhaitez obtenir plus d'informations ou si vous avez besoin d'assistance concernant certaines étapes spécifiques du développement, je suis là pour vous aider !",
+        "Si vous avez des interrogations supplémentaires ou si vous nécessitez une aide particulière pour des étapes spécifiques de votre projet, je suis à votre disposition !",
+        "N'hésitez pas à me solliciter si vous avez des questions supplémentaires ou si vous avez besoin d'assistance dans des étapes spécifiques du développement.",
+        "Si vous désirez plus de précisions ou si vous avez besoin d'aide pour des étapes spécifiques de votre projet, je suis là pour répondre à vos questions !",
+        "Sentez-vous libre de me demander si vous avez des questions supplémentaires ou si vous avez besoin d'assistance pour des étapes spécifiques de votre développement."
+    ]
+  }

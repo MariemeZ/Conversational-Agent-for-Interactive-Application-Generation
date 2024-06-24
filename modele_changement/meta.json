@@ -1,0 +1,54 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.4,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"7a2833bf2",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      "None",
+      "['None']",
+      "['backendWorkspace', 'new_valeur']",
+      "['backendWorkspace']",
+      "['frontendWorkspace', 'new_valeur']",
+      "['frontendWorkspace']",
+      "['langue', 'new_valeur', 'add']",
+      "['langue', 'new_valeur', 'delete']",
+      "['langue']",
+      "['nomApplication', 'new_valeur']",
+      "['nomApplication']",
+      "['profilsPartieServeur', 'new_valeur', 'add']",
+      "['profilsPartieServeur', 'new_valeur', 'delete']",
+      "add",
+      "backendWorkspace",
+      "delete",
+      "frontendWorkspace",
+      "langue",
+      "microservices",
+      "new_valeur",
+      "nomApplication",
+      "profilsPartieServeur"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}

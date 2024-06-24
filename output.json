@@ -1,0 +1,16 @@
+{
+    "backendWorkspace": [
+        "workspace du backend"
+    ],
+    "frontendWorkspace": [
+        "front-workspace"
+    ],
+    "langue": [
+        "entite"
+    ],
+    "microservices": [],
+    "nomApplication": [
+        "SIMep"
+    ],
+    "profilsPartieServeur": []
+}

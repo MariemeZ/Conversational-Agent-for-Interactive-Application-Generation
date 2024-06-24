@@ -1,0 +1,55 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.4,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"7a2833bf2",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      "None",
+      "['None', 'None', 'explication']",
+      "['None', 'None', 'specification']",
+      "['langue', 'etape', 'explication']",
+      "['langue', 'etape', 'specification']",
+      "['microservices', 'etape', 'explication']",
+      "['microservices', 'etape', 'specification']",
+      "['microservices', 'sous-etape', 'explication']",
+      "['microservices', 'sous-etape', 'specification']",
+      "['nomApplication', 'etape', 'explication']",
+      "['nomApplication', 'etape', 'specification']",
+      "['profilsPartieServeur', 'etape', 'explication']",
+      "['profilsPartieServeur', 'etape', 'specification']",
+      "backendWorkspace",
+      "etape",
+      "explication",
+      "frontendWorkspace",
+      "langue",
+      "microservices",
+      "nomApplication",
+      "profilsPartieServeur",
+      "sous-etape",
+      "specification"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}

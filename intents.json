@@ -1,0 +1,56 @@
+{
+    "intents": [
+      {
+        "name": "CréerApplication",
+        "samples": ["Je veux créer une application", "Crée une nouvelle application"],
+        "entities": [
+          {
+            "name": "nom d'application",
+            "type": "string"
+          },
+          {
+            "name": "workspaceFrontend",
+            "type": "string"
+          },
+          {
+            "name": "workspaceBackend",
+            "type": "string"
+          },
+          {
+            "name": "microservices",
+            "type": "string"
+          },
+          {
+            "name": "profilsUtilisateurs",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "Aide",
+        "samples": ["Besoin d'aide", "Que pouvez-vous faire ?"]
+      },
+      {
+        "name": "Salutation",
+        "samples": ["", ""]
+      }
+    ],
+    "actions": [
+      {
+        "name": "GénérerApplication",
+        "slots": [
+          "nomApplication",
+          "workspaceFrontend",
+          "workspaceBackend",
+          "microservices",
+          "profilsUtilisateurs"
+        ],
+        "prompt": "Super ! Je vais générer l'application avec les informations suivantes :  {nomApplication}\n {workspaceFrontend}\n {workspaceBackend}\n {microservices}\n {profilsUtilisateurs}\n\nVoulez-vous continuer ?"
+      },
+      {
+        "name": "Aide",
+        "prompt": "Je suis un chatbot capable de générer des applications à partir des informations que vous fournissez. Vous pouvez me demander de créer une nouvelle application en suivant ces étapes:"
+      }
+    ]
+  }
+  
